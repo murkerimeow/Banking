@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* .megablock, .superblock, .main__block, .block1, .block2{
+    border: 1px solid;
+} */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price, .payment1, .period{
+    background-color: #ECF1F7;
+    border: none;
+    height: 50px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.period{
+    width: 100%;
+}
+
+.superblock{
+    display: flex;
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #333;
+}
+
+p{
+    color: #757575;
+}
+
+button{
+    background-color: #FFDD2D;
+    color:black;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: hsl(50, 100%, 69%)
+}
+
+.superblock{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underblock100{
+    width: 100%;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result1, .result2, .result3{
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result--red{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
